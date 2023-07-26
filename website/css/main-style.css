@@ -1,0 +1,31 @@
+/* Start golbal rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-color: #0d1117;
+    --second-color: #010409;
+    --transpernt-color: rgba(14, 61, 109, 0.685);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color);
+}
+body{
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
