@@ -5,74 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/website/css/main-style.css">
+    <link rel="stylesheet" href="/website/css/tweet.css">
     <title>Tweets</title>
-
-    <style>
-
-        .tweets-container{
-            display: grid;
-            grid-auto-flow: row;
-            width: 100%;
-            height: 100vh;
-        }
-
-        .tweet{
-            background-color: white;            
-            display: flex;
-            flex-direction: column;
-            padding: 1rem 1rem 0 1rem;
-
-            gap: 1rem;
-            height: min-content;
-        }
-
-        .tweeter-info{
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            height: min-content;
-        }
-
-        .tweeter-avatar{
-            background-color: rgb(204, 51, 51);
-            height: 2.5rem;
-            width: 2.5rem;
-            border-radius: 100%;
-        }
-
-        .tweeter-username{
-            display: block;
-            color: grey;
-            font-size: 0.8rem;
-        }
-
-        .tweet-content,
-        .comment-content{
-            height: min-content;
-        }
-
-        .tweet-action-buttons{
-            border-top: 1px solid grey;
-            display: flex;
-            gap: 1rem;
-            padding: 0.5rem;
-        }
-
-        .tweet-action-buttons > button{
-            background: none;
-            border: none;        
-        }
-
-        .like > img,
-        .reply > img{
-            height: 1.5rem;
-        }
-
-        .comments{
-            background-color: grey;
-        }
-
-    </style>
 </head>
 <body>
     
@@ -102,14 +36,64 @@
 
         <div class="comments">
             <div class="comment">
+                    <div class="commenter-avatar">
+                    </div>
+
+                    <div class="comment-info">
+                        <div class="commenter-info">
+                            <h2 class="commenter-name">
+                                COMMENTER
+                                <span class="commenter-username">@COMMENTER</span>
+                            </h2>
+                        </div>
+                        <p class="comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet magni? Ex, aut delectus, quaerat ullam natus asperiores animi aliquid doloremque in recusandae dicta incidunt minus eligendi debitis impedit. Nostrum?</p>
+                    </div>
+            </div>
+
+            <div class="comment">
                 <div class="commenter-avatar">
                 </div>
-                <div class="comment-info">
-                    <h2 class="username"></h2>
-                    <p class="comment-content"></p>
 
+                <div class="comment-info">
+                    <div class="commenter-info">
+                        <h2 class="commenter-name">
+                            COMMENTER
+                            <span class="commenter-username">@COMMENTER</span>
+                        </h2>
+                    </div>
+                    <p class="comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet magni? Ex, aut delectus, quaerat ullam natus asperiores animi aliquid doloremque in recusandae dicta incidunt minus eligendi debitis impedit. Nostrum?</p>
                 </div>
+        </div>
+
+        <div class="comment">
+            <div class="commenter-avatar">
             </div>
+
+            <div class="comment-info">
+                <div class="commenter-info">
+                    <h2 class="commenter-name">
+                        COMMENTER
+                        <span class="commenter-username">@COMMENTER</span>
+                    </h2>
+                </div>
+                <p class="comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet magni? Ex, aut delectus, quaerat ullam natus asperiores animi aliquid doloremque in recusandae dicta incidunt minus eligendi debitis impedit. Nostrum?</p>
+            </div>
+    </div>
+
+    <div class="comment">
+        <div class="commenter-avatar">
+        </div>
+
+        <div class="comment-info">
+            <div class="commenter-info">
+                <h2 class="commenter-name">
+                    COMMENTER
+                    <span class="commenter-username">@COMMENTER</span>
+                </h2>
+            </div>
+            <p class="comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet magni? Ex, aut delectus, quaerat ullam natus asperiores animi aliquid doloremque in recusandae dicta incidunt minus eligendi debitis impedit. Nostrum?</p>
+        </div>
+</div>
         </div>
 
     </div>
