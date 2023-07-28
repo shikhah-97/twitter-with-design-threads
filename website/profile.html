@@ -4,50 +4,310 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/website/css/main-style.css">
-    <link rel="stylesheet" href="/website/css/profile.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Profile</title>
 </head>
 <body>
 
-    <div class="profile-container">
-        <div class="profile-info">
-            <div class="tweeter-profile-info">
-                <div class="name-username">
-                    <h2>Name</h2>
-                    <div class="username">
-                        <h5>username
-                            <span class="tweeter-net">
-                                tweeter.net
-                            </span>    
-                        </h5>
+    <div class="page d-flex">
+        <div class="side-bar p-20 ">
+            <h3 id="username">Twitter</h3>
+            <ul>
+                <li>
+                    <a href="home.html" class="">
+                        <i class="fa-solid fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="profile.html" class="active">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Followers</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <!-- start header -->
+            <div class="header between-flex">
+                <div class="search">
+                    <input type="search" placeholder="type kyword" class="in-search">
+                </div>
+                <div class="icons d-flex ">
+                    <span  class="notification"></span>
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <a href="account.html"><img src="imge/avatar_preview_rev_1.png" alt=""></a>
+                </div>
+            </div>
+            <!-- End header -->
+            <div class="home-tweet">
+                <div class="content">
+                    <div class="main-feed">
+                        <div class="profile-container">
+                            <div class="bord">
+                            <div class="profile-info">
+                                    <div class="tweeter-profile-info">
+                                        <div class="name-username">
+                                            <h2>Azam alkhodiriy</h2>
+                                            <div class="username">
+                                                <h5>@azam_123
+                                                    <span class="tweeter-net">
+                                                        tweeter.net
+                                                    </span>    
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="profile-avatar">
+                                            <img class="avatar" src="image/avatar_preview_rev_1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p class="bio">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
+                                    </p>
+                                    <div class="follow-stats">
+                                        <span> <span id="numberOfFollowers">124</span> Followers</span>
+                                        <span> <span id="numberOfFollowings">99633</span> Following</span>
+                                    </div>
+                                    <div class="settings">
+                                        <button>Settings</button>
+                                    </div>
+                                
+                            </div>
+                    
+                            <nav class="profile-nav">
+                                <a class="threads">Threads</a>
+                                <a class="replies">Replies</a>
+                            </nav>
+                    
+                            <div class="profile-content">
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Building the Portfolio page of a graphic designer (Infinity Graphics)
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Did you know that Ruby is not the same as Ruby on Rails? In this week’s installment of our Top 50 Series, The Top 50 Websites To Learn Ruby, you’ll find out many quality places to learn from.
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Did you know that Did you know that Ruby is not the same as Ruby on Rails? In this week’s installment Did you know that Ruby is not the same as Ruby on Rails? In this week’s installment Ruby is not the same as Ruby on Rails? In this week’s installment of our Top 50 Series, The Top 50 Did you know that Ruby is not the same as Ruby on Rails? In this week’s installment Websites To Learn Ruby, you’ll find out many quality places to learn from.
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Building the Portfolio page of a graphic designer (Infinity Graphics)
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Did you know that Ruby is not the same as Ruby on Rails? In this week’s installment of our Top 50 Series, The Top 50 Websites To Learn Ruby, you’ll find out many quality places to learn from.
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="old-tweet">
+                                    <div class="up">
+                                        <div class="left">
+                                        <img class="tweet-img" src="image/avatar_preview_rev_1.png" alt="">
+                                        <h3>Azam alkhodiriy</h3>
+                                        <p>@azam_123</p>
+                                        </div>
+                                        <div class="right">
+                                        <span class="material-symbols-outlined">
+                                            more_horiz
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="old-tweet-details">
+                                            <p>Building the Portfolio page of a graphic designer (Infinity Graphics)
+                                            </p>
+                                        </div>
+                                        <div class="down">
+                                            <span class="material-symbols-outlined">
+                                                favorite
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                chat_bubble
+                                                </span>
+                                            <span class="material-symbols-outlined">
+                                                autorenew
+                                                </span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   </div>
-                <div class="profile-avatar"></div>
+                    </div>
+                </div>
             </div>
-            <p class="bio">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum omnis quidem porro (:
-            </p>
-            <div class="follow-stats">
-                <span> <span id="numberOfFollowers">number</span> Followers</span>
-                <span> <span id="numberOfFollowings">number</span> Following</span>
-            </div>
-            <div class="settings">
-                <button>Settings</button>
+            <div class="footer">
+                <span style="color: white;">&copy; 2023 Made by the<span> Azam </span></span>
             </div>
         </div>
-
-        <nav class="profile-nav">
-            <a class="threads">Threads</a>
-            <a class="replies">Replies</a>
-        </nav>
-
-        <div class="profile-content">
-        </div>
-
+        
     </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    
     
 </body>
 </html>

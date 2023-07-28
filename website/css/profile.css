@@ -1,7 +1,20 @@
-:root{
-    --main-color: #0d1117;
-    --second-color: #010409;
-    --transpernt-color: rgba(14, 61, 109, 0.685);
+.header{
+    position: fixed !important;
+    top: 0 !important;
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.37);
+    border-bottom: 1px solid var(--color-border);
+}
+home-tweet .content{
+    margin: 30px 0px !important;
+
+}
+.home-tweet .main-feed{
+    width: 90% !important;
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    margin-top: 60px;
 }
 
 .profile-container{
@@ -14,7 +27,11 @@
     flex-direction: column;
     align-items: center;
 }
-
+.profile-container .bord{
+    padding-left: 10px;
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+}
 .tweeter-profile-info{
     display: grid;
     grid-template-columns: 1fr min-content;
@@ -22,11 +39,17 @@
     align-items: center;
     padding: 1rem 0 1rem 0;
     max-width: 600px;    
+    
 }
 
 .name-username{
     display: flex;
     flex-direction: column;
+}
+
+.username h5{
+    color: #777;
+    
 }
 
 .tweeter-net{
@@ -37,11 +60,11 @@
     font-size: 0.8rem;
 }
 
-.profile-avatar{
-    height: 3.5rem;
-    width: 3.5rem;
+.profile-avatar img{
+    height: 3.5rem !important;
+    width: 3.5rem !important;
     border-radius: 100%;
-    background-color: #242a34;
+    
 }
 
 .bio{
@@ -71,9 +94,10 @@
     background-color: inherit;
     border: 1px solid #49515e;
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 4rem;
     border-radius: 0.5rem;
     font-weight: bold;
+    font-size: 20PX;
 }
 
 .profile-nav{
@@ -89,17 +113,6 @@
     cursor: pointer;
 }
 
-/* 
-.profile-nav:has(a:active),
-.profile-nav:has(a:hover)
-{
-    border-bottom: 1px solid #888c91;
-}
-
-$nav a:hover{
-    border-bottom: 1px solid #888c91;
-
-} */
 .threads:active,
 .replies:active,
 .threads:hover,
@@ -109,4 +122,35 @@ $nav a:hover{
 
 .profile-content{
     max-width: 600px;    
+}
+
+.old-tweet{
+    color: white;
+    padding: 4px 16px;
+    border-bottom: 1px solid rgb(47, 51, 54)
+}
+.old-tweet .up .left{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.old-tweet .up {
+    display: flex;
+    justify-content: space-between;
+}
+.old-tweet .up h3 {
+    font-size: 20px;    
+    font-weight: bold;
+}
+.old-tweet .up p {
+    color: #777;
+}
+.content .old-tweet-details p{
+    margin-top: 10px;
+    margin-left: 43px;
+}
+.old-tweet .down{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
